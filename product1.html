@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./fontawesome-free-5.13.0-web/css/all.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./mobile.css">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Nunito|Roboto:400,700'><link rel="stylesheet" href="./style.css">
+
+<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+<link rel="icon" href="images/Artboard 1.png">
+    <title>Product | Tandey</title>
+<script src="js/JQuery3.3.1.js"></script>
+</head>
+<body>
+  <style>
+    #prodas{
+      padding-top: 37px;
+    padding-bottom: 59px;
+    }
+    .product {
+  max-width: 1170px;
+  margin: auto;
+  -webkit-box-shadow: 0px 6px 60px -10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 6px 60px -10px rgba(0,0,0,0.5);
+  box-shadow: 0px -4px 29px -15px rgb(0 0 0 / 50%);
+}
+
+/* Product Slider */
+
+.product-slider {
+  min-height: 300px;
+  height: 100%;
+}
+
+/* Product Content */
+
+.product-content {
+  background-color: #ffffff;
+}
+
+.product-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.product-category {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.product-price {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.product-description {
+  margin: 10px 0;
+}
+
+/* Product Color Selector */
+
+.product-color-selector {
+  width: 100%;
+  float: left;
+  margin: 10px 0;
+}
+
+.product-color-label {
+  float: left;
+  margin-top: 4px;
+}
+
+.product-colors {
+  float: left;
+  padding: 0 0 18px 12px;
+  margin-bottom: 0;
+}
+
+.product-color {
+  height: 30px;
+  width: 30px;
+  background: #cccccc;
+  border-radius: 30px;
+  display: inline-block;
+  margin-right: 3px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.product-color:hover {
+  cursor: pointer;
+}
+
+.product-color-black {
+  background: #00171F;
+}
+
+.product-color-navy {
+  background: #1D2D44;
+}
+
+.product-color-grey {
+  background: #E6E6E9;
+}
+
+.product-color_active {
+-webkit-box-shadow: 0px 5px 15px -4px rgba(0,23,31,1);
+-moz-box-shadow: 0px 5px 15px -4px rgba(0,23,31,1);
+box-shadow: 0px 5px 15px -4px rgba(0,23,31,1);
+}
+
+/* Product Button */
+.btn-primary{
+  background-color: #2874ba !important;
+}
+.product-button {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #2874ba;
+  border: none;
+  border-radius: 0;
+  padding: 0.75rem 1.75rem;
+  
+}
+
+.product-button:hover {
+  cursor: pointer;
+  background: black;
+  -webkit-transform: scale(1.025);
+  -moz-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+}
+
+/* Slick Slider */
+
+.slick-dots {
+  position: absolute;
+  bottom: 15px;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+.slick-list, .slick-track {
+  height: 100%;
+}
+  </style>
+  <script type="text/javascript">
+    $(document).ready(function(){ 
+      var touch 	= $('#resp-menu');
+      var menu 	= $('.menu');
+     
+      $(touch).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+      });
+      
+      $(window).resize(function(){
+        var w = $(window).width();
+        if(w > 767 && menu.is(':hidden')) {
+          menu.removeAttr('style');
+        }
+      });
+      
+    });    </script>
+        
+    
+    <header class="header-area">
+        <div class="container">
+        <div class="icons-right pt-3"  style="display: flex;">
+        
+          <div class="cird mx-2 ">
+           <a href=""><i class="fab fa-facebook-f" style="color: white;"></i></a>
+         </div>
+         <div class="cird mx-2 ">
+          <a href=""><i class="fab fa-instagram" style="color: white;"></i></a>
+        </div>
+        <div class="cird mx-2 ">
+          <a href=""><i class="fab fa-whatsapp" style="color: white;"></i></a>
+        </div>
+        <div class="cird mx-2 ">
+          <a href=""><i class="fab fa-linkedin-in" style="color: white;"></i></a>
+        </div>
+        </div>
+             
+        
+        
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="images/Artboard 1.png" class="imgd" alt=""></a>
+
+      <a id="resp-menu" class="responsive-menu" href="#"><i  id="hamba"class="fas fa-bars"></i></a>    
+        
+      <ul class="menu pt-3">
+         <li style="font-size: 14px;"><a class="homer" href="index.html"><i style="color: #2874ba;"  class="fa fa-home"></i> HOME</a>
+        
+         </li>
+        <li style="font-size: 14px;"><a  href="about.html"><i style="color: #2874ba;" class="fa fa-user"></i> ABOUT</a></li>
+        <li style="font-size: 14px;"><a  href="services.html"><i style="color: #2874ba;" class="fas fa-concierge-bell"></i> Services</a>
+       </li>
+          
+      
+          <li style="font-size: 14px;"><a  href="#"><i style="color: #2874ba;" class="fa fa-tags"></i> PRODUCTS</a>
+        <ul class="sub-menu">
+         <li><a href="#">TILES</a>
+          <ul>
+
+          <li><a href="productt.html">TILES 1</a></li>
+           <li><a href="#">TILES 2</a></li>
+        <li><a href="#">TILES 3</a></li>
+      </ul>
+        
+        </li>
+         <li><a href="#">CEMENT</a>
+          <ul>
+          <li><a href="#">CEMENT 1</a></li>
+           <li><a href="#">CEMENT 2</a></li>
+        <li><a href="#">CEMENT 3</a></li>	
+          </ul>
+         </li>
+           <li><a href="#">IRON RODS</a>
+          <ul>
+          <li><a href="#">IRON RODS 1</a></li>
+           <li><a href="#">IRON RODS 2</a></li>
+        <li><a href="#">IRON RODS 3</a></li>
+          
+          </ul>
+         </li>
+         <li><a href="#">BATHROOM ACCESSORIES</a>
+          <ul>
+          <li><a href="#">BATHROOM ACCESSORIES 1</a></li>
+           <li><a href="#">BATHROOM ACCESSORIES 2</a></li>
+        <li><a href="#">BATHROOM ACCESSORIES 3</a></li>
+          
+          </ul>
+         </li>
+         <li><a href="#">ROOFING ZING</a>
+          <ul>
+          <li><a href="#">ROOFING ZING 1</a></li>
+           <li><a href="#">ROOFING ZING 2</a></li>
+        <li><a href="#">ROOFING ZING 3</a></li>
+          
+          </ul>
+         </li>
+         <li><a href="#">PAINT</a>
+          <ul>
+          <li><a href="#">PAINT 1</a></li>
+           <li><a href="#">PAINT 2</a></li>
+        <li><a href="#">PAINT 3</a></li>
+          
+          </ul>
+         </li>
+         <li><a href="#">CONSTRUCTION ITEMS</a>
+          <ul>
+          <li><a href="#">CONSTRUCTION ITEMS 1</a></li>
+           <li><a href="#">CONSTRUCTION ITEMS 2</a></li>
+        <li><a href="#">CONSTRUCTION ITEMS 3</a></li>
+          
+          </ul>
+         </li>
+         <li><a href="#">PVC SEALING</a>
+          <ul>
+          <li><a href="#">PVC SEALING 1</a></li>
+           <li><a href="#">PVC SEALING 2</a></li>
+        <li><a href="#">PVC SEALING 3</a></li>
+          
+          </ul>
+         </li>
+         </ul>
+        </li>
+        <li style="font-size: 14px;"><a  href="contact.html"><i style="color: #2874ba;" class="fa fa-envelope"></i> CONTACT</a></li>
+        </ul>
+      </div>
+
+      </nav>
+<br>
+      <section id="prodas">
+  <div class="product">
+    <div class="row no-gutters">
+      <div class="col-lg-6">
+        <div class="product-slider">
+          <div class="product-slide" style="background: url('./images/t1.jpg') center no-repeat; background-size: cover;"></div>
+          <div class="product-slide" style="background: url('./images/t2.jpg') center no-repeat; background-size: cover;"></div>
+          <div class="product-slide" style="background: url('./images/t3.jpg') center no-repeat; background-size: cover;"></div>
+          <div class="product-slide" style="background: url('./images/t4.jpg') center no-repeat; background-size: cover;"></div>
+
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="product-content p-4 p-md-5 h-100">
+          <h3 class="product-title">Apple Watch</h3>
+          <div class="product-category">Watches</div>
+          <div class="product-price">$345</div>
+          <div class="product-description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique sapien nec mi placerat sodales. Cras bibendum, elit in semper venenatis, lorem ipsum tempus felis, eu euismod neque dolor sit amet erat.</p>
+          </div>
+          <div class="product-color-selector">
+            <span class="product-color-label">Color</span>
+            <ul class="product-colors">
+              <li class="product-color product-color-black product-color_active" data-slide-index="1"></li>
+              <li class="product-color product-color-navy" data-slide-index="2"></li>
+              <li class="product-color product-color-grey" data-slide-index="3"></li>
+            </ul>
+          </div>
+          <button class="product-button btn btn-primary">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+      <section class="sec6">
+        <span class="line"></span>
+        <div class="container mycontainer">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-6 pt-5 animate__animated animate__fadeInLeft animate__delay-5s animate__slower">
+              <h5 class="ft-h5" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+                <p class="ft-green">Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="col-12 col-md-2 col-lg-2 pt-5">
+                <img class="ft-1" src="./images/3.JPG">
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 pt-5 animate__animated animate__fadeInLeft animate__delay-5s animate__slower">
+            <h5 class="ft-h5">TANDEY ADAM LTD</h5>
+            <br>
+            <p class="ft-para">4 Ecowas street Freetown,Si</p>
+                <br>
+            <p class="ft-green">info@tandeadamtradingcenter.com</p>
+            </div>
+        </div>
+        </section>
+        <footer class="ft">
+          <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4 pt-5">
+                  <h6 class="ft-h6 pb-3">TANDE ADAM</h6>
+                  <a class="ft-a pb-2">About </a> <br>
+                  <a class="ft-a pb-2">Contact</a>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 pt-5">
+                    <h6 class="ft-h6 pb-3">QUICK LINKS</h6>
+                    <a class="ft-a pb-2" >Servies</a><br>
+                    <a class="ft-a pb-2">World of welding</a><br>
+                    <a class="ft-a pb-2">Products & Services</a><br>
+                    <a class="ft-a pb-2">Digital Solutions</a><br>
+                    <a class="ft-a pb-2">Info Center</a><br>
+                    <a class="ft-a pb-2">Newsletter</a><br>
+                    <a class="ft-a pb-2">Contact</a>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 pt-5">
+                    <h6 class="ft-h6 pb-3">SOLAR ENERGY</h6>
+                    <a class="ft-a pb-2">Our Vision</a><br>
+                    <a class="ft-a pb-2">Our Expertise</a><br>
+                    <a class="ft-a pb-2">Products & Solutions</a><br>
+                    <a class="ft-a pb-2">Info Center</a><br>
+                    <a class="ft-a pb-2">Contact</a><br>
+                    <a class="ft-a pb-2">Newsletter</a>
+                </div>
+                <div class="col-12 col-md-2 col-lg-2 pt-5">
+                    <h6 class="ft-h6 pb-3">PERFECT CHARGING</h6>
+                    <a class="ft-a pb-2">About Perfect Charging</a><br>
+                    <a class="ft-a pb-2">Intralogistics</a><br>
+                    <a class="ft-a pb-2">Car Workshop Equipment</a><br>
+                    <a class="ft-a pb-2">Products & Solutions</a><br>
+                    <a class="ft-a pb-2">Contact</a>
+                </div>
+            </div>
+          </div>
+        </footer>
+        <div class="copywrite-area">
+          <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4 pt-3">
+                  <p class="ft-para">© 2021 TANDEY ADAM</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 pt-3">
+                    <a class="ft-a2" href="#">Imprint |</a>
+                    <a href="#" class="ft-a2">Terms and Conditions |</a>
+                    <a href="#" class="ft-a2">Data privacy statement |</a>
+                    <a href="#" class="ft-a2">Cookie Policy</a>
+                </div>
+                <div class="col-12 col-md-2 col-lg-2">
+                  <div class="pt-2">
+                    <a><i class="fa fa-google-plus f-2" aria-hidden="true"></i></a>
+                    <a><i class="fa fa-twitter f-2" aria-hidden="true"></i></a>
+                    <a><i class="fa fa-linkedin-square f-2" aria-hidden="true"></i></a>
+                    <a><i class="fa fa-facebook f-2" aria-hidden="true"></i></a>
+                    <a><i class="fa fa-pinterest-p f-2" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+        <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js'></script><script  src="./js/scriptsl.js"></script>
+        
+      </body>
+<script src="../bootstrap/js/bootstrap.bundle.js"></script>
+</html>

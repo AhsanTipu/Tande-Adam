@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Favicon -->
+  <link rel="icon" href="">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile.css">
+
+  <link rel="stylesheet" href="./fontawesome-free-5.13.0-web/css/all.css">
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+/>
+<link rel="icon" href="images/Artboard 1.png">
+    <title>Services | Tandey</title>
+<script src="js/JQuery3.3.1.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    $(document).ready(function(){ 
+      var touch 	= $('#resp-menu');
+      var menu 	= $('.menu');
+     
+      $(touch).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+      });
+      
+      $(window).resize(function(){
+        var w = $(window).width();
+        if(w > 767 && menu.is(':hidden')) {
+          menu.removeAttr('style');
+        }
+      });
+      
+    });    </script>
+        
+      
+  
+  <header class="header-area">
+    <div class="container">
+    <div class="icons-right pt-3" style="display: flex;">
+     <div class="cird mx-2 ">
+       <a href=""><i class="fab fa-facebook-f" style="color: white;"></i></a>
+     </div>
+     <div class="cird mx-2 ">
+      <a href=""><i class="fab fa-instagram" style="color: white;"></i></a>
+    </div>
+    <div class="cird mx-2 ">
+      <a href=""><i class="fab fa-whatsapp" style="color: white;"></i></a>
+    </div>
+    <div class="cird mx-2 ">
+      <a href=""><i class="fab fa-linkedin-in" style="color: white;"></i></a>
+    </div>
+    </div>
+         
+    
+    
+</header>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="images/Artboard 1.png" class="imgd" alt=""></a>
+
+  <a id="resp-menu" class="responsive-menu" href="#"><i  id="hamba"class="fas fa-bars"></i></a>    
+    
+  <ul class="menu pt-3">
+     <li style="font-size: 14px;"><a class="homer" href="index.html"><i style="color: #2874ba;"  class="fa fa-home"></i> HOME</a>
+    
+     </li>
+    <li style="font-size: 14px;"><a  href="about.html"><i style="color: #2874ba;" class="fa fa-user"></i> ABOUT</a></li>
+    <li style="font-size: 14px;"><a  href="services.html"><i style="color: #2874ba;" class="fas fa-concierge-bell"></i> Services</a>
+   </li>
+      
+  
+      <li style="font-size: 14px;"><a  href="#"><i style="color: #2874ba;" class="fa fa-tags"></i> PRODUCTS</a>
+    <ul class="sub-menu">
+     <li><a href="#">TILES</a>
+      <ul>
+
+      <li><a href="productt.html">TILES 1</a></li>
+       <li><a href="#">TILES 2</a></li>
+    <li><a href="#">TILES 3</a></li>
+  </ul>
+    
+    </li>
+     <li><a href="#">CEMENT</a>
+      <ul>
+      <li><a href="#">CEMENT 1</a></li>
+       <li><a href="#">CEMENT 2</a></li>
+    <li><a href="#">CEMENT 3</a></li>	
+      </ul>
+     </li>
+       <li><a href="#">IRON RODS</a>
+      <ul>
+      <li><a href="#">IRON RODS 1</a></li>
+       <li><a href="#">IRON RODS 2</a></li>
+    <li><a href="#">IRON RODS 3</a></li>
+      
+      </ul>
+     </li>
+     <li><a href="#">BATHROOM ACCESSORIES</a>
+      <ul>
+      <li><a href="#">BATHROOM ACCESSORIES 1</a></li>
+       <li><a href="#">BATHROOM ACCESSORIES 2</a></li>
+    <li><a href="#">BATHROOM ACCESSORIES 3</a></li>
+      
+      </ul>
+     </li>
+     <li><a href="#">ROOFING ZING</a>
+      <ul>
+      <li><a href="#">ROOFING ZING 1</a></li>
+       <li><a href="#">ROOFING ZING 2</a></li>
+    <li><a href="#">ROOFING ZING 3</a></li>
+      
+      </ul>
+     </li>
+     <li><a href="#">PAINT</a>
+      <ul>
+      <li><a href="#">PAINT 1</a></li>
+       <li><a href="#">PAINT 2</a></li>
+    <li><a href="#">PAINT 3</a></li>
+      
+      </ul>
+     </li>
+     <li><a href="#">CONSTRUCTION ITEMS</a>
+      <ul>
+      <li><a href="#">CONSTRUCTION ITEMS 1</a></li>
+       <li><a href="#">CONSTRUCTION ITEMS 2</a></li>
+    <li><a href="#">CONSTRUCTION ITEMS 3</a></li>
+      
+      </ul>
+     </li>
+     <li><a href="#">PVC SEALING</a>
+      <ul>
+      <li><a href="#">PVC SEALING 1</a></li>
+       <li><a href="#">PVC SEALING 2</a></li>
+    <li><a href="#">PVC SEALING 3</a></li>
+      
+      </ul>
+     </li>
+     </ul>
+    </li>
+    <li style="font-size: 14px;"><a  href="contact.html"><i style="color: #2874ba;" class="fa fa-envelope"></i> CONTACT</a></li>
+    </ul>
+  </div>
+
+  </nav>
+
+<section id="topup">
+
+  <div class="breadc">
+      <a class="newlink" href="index.html">Home</a>
+      <a class="newlink" href="services.html">/ Services</a>
+      <h1 class="tza  zza" style="font-weight: 600; color: white;">Services</h1>
+  
+  </div>
+</section>
+    <section class="s-sec">
+        <div class="container ">
+          
+            <div class="animate__animated animate__fadeInUp animate__delay-1s">
+              <h2 class="s2-h2 dh2 mt-5 mb-5">OUR SERVICES</h2>
+            </div>
+            <h2 class="s2-h2  mt-3 mb-3">GRID CONNECTED SYSTEM</h2>
+            <p>
+              With our unrivalled solar PV expertise, we can give peace of mind to any solar PV array owner regardless of who
+installed the system. From our experience of solar we recommend, as a minimum, an annual inspection visit so
+you’re solar PV operates at its optimum performance each year, protecting both your return on investment and
+contributing to your electrical compliance regime.
+We recognize that commercial solar PV owners have different needs and therefore our operation and maintenance
+service offers three tiered options outlined at the bottom of the page. These can be further customized to tailor a solution that meets your requirements.
+Our operation and maintenance service is available for solar PV systems from 1 kWp up to multi MWp sites.
+            </p>
+            <div class="row dh2">
+              <div class="col-12 col-md-6 col-lg-6 pt-5 animate__animated animate__fadeInUp animate__delay-1s animate__slow">
+                <img class="s-home" src="./images/img_home.jpg">
+                <h3 class="s2-h2 mt-2 mb-3" style="font-size: 18px !important;">ON-GRID SOLAR PV</h3>
+                <p>
+                  A grid connect system can have any type of generation whether it be solar PV, wind or hydro. This then connects into your
+                  distribution board and generated power is first used within the property to reduce electricity consumption and any surplus is
+                  exported to the grid or can be store in batteries.
+                  </p>
+                  <h3 class="s2-h2 dh2 mt-5 mb-3" style="font-size: 18px !important;">HOW IT WORKS</h3>
+                  <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6 pt-5 ">
+                      <img class="s-home" src="./images/ongrid.jpg">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 pt-5 ">
+                      <p>
+                        This simple system can be a very wise investment offering reduction in outgoings and bringing you an income
+                        A large portion of the energy generated by a typical PV system will be exported to the grid.
+                      </p>
+                    </div>
+                  </div>
+                  <h3 class="s2-h2 mt-2 mb-3" style="font-size: 18px !important;">WHAT IT CAN OFFER YOU</h3>
+                  <p>
+                    This simple system can be a very wise investment offering reduction in outgoings and bringing you an income:
+                                    <ul class="ml-2">
+                                    <li> Reduce your electricity consumption and your bills by 30% to 40%</li>
+                                    <li>Systems can pay for themselves in as little as 4 years and continue offering benefits for at least next 25 years.</li>
+                                    <li>100% Clean Energy production and reduced carbon foot print impact on our Environment</li>
+                                    <li>No Operating and maintaining cost for solar PV systems as far as only PV modules cleaning</li>
+                                    <li>Add on-grid batteries solutions in case power cut off or self-consumption. Grid Connect System with Battery Storage.</li>
+                                    <li>Get paid for all the electricity you export to grid via the Net Metering in Pakistani by new regulation approved by NEPRA.</li>
+                                </ul>
+                  </p>
+              </div>
+              <div class="col-12 col-md-6 col-lg-6 pt-5 animate__animated animate__fadeInUp animate__delay-1s animate__slow">
+                <img class="s-ind" src="./images/img_industrial.jpg">
+                <h3 class="s2-h2 mt-2 mb-3" style="font-size: 18px !important;">OFF-GRID SOLAR PV</h3>
+                <p>
+                  An Off-grid system is not connected to an external electricity supply and is often in a remote location or is mobile. Small off-grid
+                  systems offer an alternative to bringing in mains electricity.
+                  To be successful, efficient use of the electricity generated is essential and the system must be sized to meet worst case conditions.
+                </p>
+                <h3 class="s2-h2 dh2 mt-5 mb-3" style="font-size: 18px !important;">HOW IT WORKS</h3>
+                <div class="row">
+                  <div class="col-12 col-md-6 col-lg-6 pt-5 ">
+                    <img class="s-home" src="./images/ongrid.jpg">
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-6 pt-5 ">
+                    <p>
+                      A wind generator and/or solar PV panels charge a battery and the battery supplies power to the loads as needed. All loads are run at the battery voltage (usually 12 or 24 VDC).
+                    </p>
+                  </div>
+                </div>
+                <h3 class="s2-h2 mt-2 mb-3" style="font-size: 18px !important;">WHAT IT CAN OFFER YOU</h3>
+                <p>
+                  Here are some examples of what you could power
+                                <ul class="ml-4">
+                                    <li>Music systems</li>
+                                    <li>Fridges</li>
+                                    <li>Lighting</li>
+                                    <li>Tools</li>
+                                    <li>TVs</li>
+                                    <li>Satellites</li>
+                                    <li>Telecoms equipment</li>
+                                    <li>Electric fencing</li>
+                                </ul>
+                </p>
+              </div>
+            </div>
+
+            <h2 class="s2-h2 mt-3 mb-3">EV CHARGING POINT</h2>
+            <div class="row dh2 animate__animated animate__fadeInUp animate__delay-2s animate__slow">
+             <div class="col-12 col-md-4 col-lg-4 pt-3">
+               <img class="s-home" src="./images/ongrid.jpg">
+             </div>
+             <div class="col-12 col-md-8 col-lg-8 pt-3">
+              <p>
+                Empower your company with electric car charging points for business. Electric vehicles (EVs) are too popular now for businesses to not provide your employees or visitors with electric car charging stations. Provide your company with valued facilities and enhanced CSR through our commercial EV charging station – or even charge a competitive price for EV charging to generate additional revenue.
+              </p>
+              <h3 class="s2-h2 mt-2 mb-3" style="font-size: 18px !important;">Benefits of Electric Car Charging Stations</h3>
+                <p>
+                  Onsite electric car or, as they’re sometimes referred to, electric vehicle (EV) charging stations give your business the means to power its own EV fleet, in addition to providing valued facilities to the growing private ownership of EVs for staff, visitors and customers. As part of a wider energy solution, an electric car charging station installation can be integrated with solar carports, in part providing charging for EVs with green electricity generated from solar power. When combined with other energy-efficient measures, the cost of charging electric cars can be reduced further.
+                </p>
+            </div>
+            </div>
+            <h2 class="s2-h2 mt-3 mb-3">OPERATIONS AND MAINTENANCE</h2>
+            <div class="row dh2 animate__animated animate__fadeInUp animate__delay-3s animate__slow">
+              <div class="col-12 col-md-4 col-lg-4 pt-3">
+                <img class="s-home" src="./images/M-70299.png">
+              </div>
+              <div class="col-12 col-md-8 col-lg-8 pt-3">
+                <p>
+                  With our unrivalled solar PV expertise, R&R Engineering Associates can give peace of mind to
+                                any Pakistan solar PV array owner regardless of who installed the system. From our experience of
+                                solar we recommend, as a minimum, an annual inspection visit so your solar PV operates at its
+                                optimum performance each year, protecting both your return on investment and contributing to
+                                your electrical compliance regime.We recognize that commercial solar PV owners have different needs and therefore our operation
+                                and maintenance service offers three tiered options outlined at the bottom of the page. These can be further customized to tailor a solution that meets your requirements. Our operation and maintenance service is available for solar PV systems from 1kWp up to multi MWp sites.These can
+                                be further customized to tailor a solution that meets your requirements.
+                </p>
+                <h3 class="s2-h2 mt-2 mb-3" style="font-size: 18px !important;">Cleaning solar panels</h3>
+                <p>
+                  We are often asked about cleaning solar panels as they can accumulate dirt over time which can
+                                    reduce the efficiency of sunlight capture and ultimately reduce the amount of electricity generated
+                                    by your system. In most cases, the self-cleaning properties of the panels and the angle of
+                                    installation is sufficient enough for the regular rainfall in the UK to remove any build up of dirt. Our
+                                    experience is that this tends to make a solar panel clean uneconomical for the cost.
+                </p>
+                <h3 class="s2-h2 mt-2 mb-3" style="font-size: 18px !important;">Solar panel maintenance and monitoring</h3>
+                <p>
+                  The solar panel system has two main components; the roof mounting and panels, and the
+                  inverter(s). The solar panels and roof mounting are exposed to the elements of the UK climate
+                  with wind exerting pressure on the mechanical integrity of the PV system, and the rain impacting
+                  both the panel’s electrical string connections and the roof seals under the mounting system.Our preventative solar panel maintenance plan is designed to help you achieve and maximize
+                  your solar PV investment return, and to help with your risk management as part of your annual
+                  electrical compliance regime.
+                </p>
+              </div>
+              </div>
+              <h2 class="s2-h2 mt-3 mb-3">ONLINE SERVICES</h2>
+              <div class="row mb-4 animate__animated animate__fadeInUp animate__delay-4s animate__slow">
+                <div class="col-12 col-md-4 col-lg-4 pt-3">
+                  <img class="s-home" src="./images/operations_maintenance.jpg">
+                </div>
+                <div class="col-12 col-md-8 col-lg-8 pt-3">
+                  <p>
+                    Our expert teams will help you with technical questions. HR system operators are advised to first consult their installer.
+                  </p>
+                  <h3 class="s2-h2 dh2 mt-2 mb-3" style="font-size: 18px !important;">HR Service Line Phone Numbers</h3>
+                <a href="#">+49 561 9876-2345</a> <br><br>
+                <a href="#">+49 561 9876-2345</a> <br><br>
+                <a href="#">+49 561 9876-2345</a> 
+                </div>
+                </div>
+            </div>
+    </section>
+    <section class="sec6">
+      <span class="line"></span>
+      <div class="container mycontainer">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-6 pt-5 animate__animated animate__fadeInLeft animate__delay-5s animate__slower">
+            <h5 class="ft-h5" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+              <p class="ft-green">Lorem ipsum dolor sit amet</p>
+          </div>
+          <div class="col-12 col-md-2 col-lg-2 pt-5">
+              <img class="ft-1" src="./images/3.JPG">
+          </div>
+          <div class="col-12 col-md-4 col-lg-4 pt-5 animate__animated animate__fadeInLeft animate__delay-5s animate__slower">
+          <h5 class="ft-h5">TANDEY ADAM LTD</h5>
+          <br>
+          <p class="ft-para">4 Ecowas street Freetown,Si</p>
+              <br>
+          <p class="ft-green">info@tandeadamtradingcenter.com</p>
+          </div>
+      </div>
+      </section>
+      <footer class="ft">
+        <div class="container">
+          <div class="row">
+              <div class="col-12 col-md-4 col-lg-4 pt-5">
+                <h6 class="ft-h6 pb-3">TANDE ADAM</h6>
+                <a class="ft-a pb-2">About </a> <br>
+                <a class="ft-a pb-2">Contact</a>
+              </div>
+              <div class="col-12 col-md-3 col-lg-3 pt-5">
+                  <h6 class="ft-h6 pb-3">QUICK LINKS</h6>
+                  <a class="ft-a pb-2" >Servies</a><br>
+                  <a class="ft-a pb-2">World of welding</a><br>
+                  <a class="ft-a pb-2">Products & Services</a><br>
+                  <a class="ft-a pb-2">Digital Solutions</a><br>
+                  <a class="ft-a pb-2">Info Center</a><br>
+                  <a class="ft-a pb-2">Newsletter</a><br>
+                  <a class="ft-a pb-2">Contact</a>
+              </div>
+              <div class="col-12 col-md-3 col-lg-3 pt-5">
+                  <h6 class="ft-h6 pb-3">SOLAR ENERGY</h6>
+                  <a class="ft-a pb-2">Our Vision</a><br>
+                  <a class="ft-a pb-2">Our Expertise</a><br>
+                  <a class="ft-a pb-2">Products & Solutions</a><br>
+                  <a class="ft-a pb-2">Info Center</a><br>
+                  <a class="ft-a pb-2">Contact</a><br>
+                  <a class="ft-a pb-2">Newsletter</a>
+              </div>
+              <div class="col-12 col-md-2 col-lg-2 pt-5">
+                  <h6 class="ft-h6 pb-3">PERFECT CHARGING</h6>
+                  <a class="ft-a pb-2">About Perfect Charging</a><br>
+                  <a class="ft-a pb-2">Intralogistics</a><br>
+                  <a class="ft-a pb-2">Car Workshop Equipment</a><br>
+                  <a class="ft-a pb-2">Products & Solutions</a><br>
+                  <a class="ft-a pb-2">Contact</a>
+              </div>
+          </div>
+        </div>
+      </footer>
+      <div class="copywrite-area">
+        <div class="container">
+          <div class="row">
+              <div class="col-12 col-md-4 col-lg-4 pt-3">
+                <p class="ft-para">© 2021 TANDEY ADAM</p>
+              </div>
+              <div class="col-12 col-md-6 col-lg-6 pt-3">
+                  <a class="ft-a2" href="#">Imprint |</a>
+                  <a href="#" class="ft-a2">Terms and Conditions |</a>
+                  <a href="#" class="ft-a2">Data privacy statement |</a>
+                  <a href="#" class="ft-a2">Cookie Policy</a>
+              </div>
+              <div class="col-12 col-md-2 col-lg-2">
+                <div class="pt-2">
+                  <a><i class="fa fa-google-plus f-2" aria-hidden="true"></i></a>
+                  <a><i class="fa fa-twitter f-2" aria-hidden="true"></i></a>
+                  <a><i class="fa fa-linkedin-square f-2" aria-hidden="true"></i></a>
+                  <a><i class="fa fa-facebook f-2" aria-hidden="true"></i></a>
+                  <a><i class="fa fa-pinterest-p f-2" aria-hidden="true"></i></a>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+        <script src="./bootstrap/js/jquery.js"></script>
+        <script src="./bootstrap/js/bootstrap.min.js"></script>
+        <script src="./js/isotope.min.js"></script>
+         <script src="./js/script.js"></script>  
+         <script src="./js/navbar.js"></script>
+        <script>
+            function openForm() {
+              document.getElementById("myForm").style.display = "block";
+            }
+            
+            function closeForm() {
+              document.getElementById("myForm").style.display = "none";
+            }
+            function opencart(){
+                  location.href=window.open('cart.html');
+              }
+            </script>
+</body>
+</html>

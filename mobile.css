@@ -1,0 +1,141 @@
+@media (min-width:360px) and (max-width : 767px){
+    .imgd {
+    width: 200px !important;
+    }
+    #rew{
+        margin-top: 0px;
+    }
+    #grb{
+        display: block;
+        margin: auto;
+    }
+    .menu li:first-child {
+    margin-left: 9px;
+    }
+    .fa-concierge-bell{
+        margin-left: 10px;
+    }
+    .btn-gr{
+        width: 355px;
+    }
+    #hamba{
+        float: right;
+    margin-top: -52px;
+    }
+    .navbar-nav .dropdown-menu{
+        position: absolute !important;
+    }
+    .tat{
+        font-size: 12px;
+        padding-top: 8px;
+    }
+    #cczs{
+        margin-bottom: 7px ;
+    }
+#dpis{
+    display: none;
+}
+.text-gray-600{
+    margin-top: -62px;
+}
+.testi{
+    margin-top: 613px;
+    text-align: center;
+}
+.animate__animated.animate__slow {
+top: 15px !important;
+}
+.mobt{
+    color: white;
+    font-weight: bold;
+    padding-top: 165px;
+    padding-left: 20px;
+}
+#res{
+    display: block;
+}
+.slider-wrapper{
+display: none;
+}
+#dropa{
+    display: block;
+}
+.bbb_item{
+    margin-left: 42px;
+}
+.ft-1{
+    display: block !important;
+    margin: auto !important;
+}
+.icons-right{
+    float: none;
+    margin-left: 88px;
+}
+#icc{
+    display: block !important;
+    margin: auto !important;
+}
+.btn-gr{
+    display: none;
+}
+}
+
+/* IPAD */
+@media only screen 
+and (min-width: 768px) and (max-width: 1200px) 
+{.nav-link{
+    font-size: 10px !important;
+}
+.slider-link-wrapper {
+top: 279px !important;
+height:48% !important;
+}
+.sticky{
+position: relative !important;
+}
+.btn-gr{
+    width: 843px !important;
+}
+    #nl{
+        margin-bottom: 30px;
+    }
+    .slider-link-wrapper .slider-link{
+        margin-top: -98px;
+    height: 533px;  
+    } 
+    .tat {
+        font-size: 14px;
+    }
+}
+
+/* IPAD */
+
+/* IPAD PRO */
+
+@media only screen 
+and (min-width: 768px) and (max-width: 1023px) 
+{
+    .menu {
+        display: none;
+    }
+#hamba{
+    float: right;
+    margin-top: -50px;
+}
+    .responsive-menu {
+        display: block;
+    }    
+    .btn-gr{
+        width: 671px !important;
+    }
+    .bbb_title{
+        display: none;
+    }
+    .bbb_text{
+        display: none;
+    }
+    .bbb_slider_nav{
+        display: none;
+    }   
+}
+/* IPAD PRO */
